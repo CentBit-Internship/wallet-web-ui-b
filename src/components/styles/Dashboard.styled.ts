@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Dashboard = styled.main`
-  width: 85%;
+  width: 80%;
   height: 100vh;
   background-color: #fff;
 `
