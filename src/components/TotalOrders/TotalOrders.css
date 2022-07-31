@@ -1,0 +1,62 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+}
+
+.total-orders-container {
+  background-color: #a88ed4;
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.to-top {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.to-tag {
+  background-color: #fff;
+  padding: 6px 10px 10px 10px;
+  border-radius: 8px;
+}
+
+.to-order-icon {
+  font-size: 20px;
+  transform: rotateY(180deg);
+}
+
+.total-orders {
+  position: absolute;
+  left: 34%;
+  top: 33%;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.to-bottom {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.to-amount {
+  font-size: 27px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.to-arrow-up {
+  padding: 3px 10px 0 10px;
+}
+
+.to-arrow-icon {
+  font-size: 23px;
+}
