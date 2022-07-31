@@ -12,6 +12,14 @@
   flex-direction: column;
   justify-content: space-between;
   border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.total-orders-container:hover {
+  background-color: #a88ed4;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  transform: scale(1.05);
+  transition: 0.2s;
 }
 
 .to-top {
