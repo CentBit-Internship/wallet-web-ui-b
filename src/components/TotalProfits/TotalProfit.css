@@ -1,0 +1,68 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+}
+
+.total-profit-container {
+  background-color: #b9e303;
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.tp-top {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.tp-tag {
+  background-color: #fff;
+  padding: 6px 10px 10px 10px;
+  border-radius: 8px;
+}
+
+.tp-tag-icon {
+  font-size: 20px;
+}
+
+.tp-tag-icon-arrow {
+  position: absolute;
+  left: 4.5%;
+  top: 15%;
+  transform: rotate(320deg);
+}
+
+.total-profit {
+  position: absolute;
+  left: 34%;
+  top: 33%;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.tp-bottom {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tp-amount {
+  font-size: 25px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.tp-arrow-down {
+  padding: 3px 10px 0 10px;
+}
+
+.tp-arrow-icon {
+  font-size: 23px;
+}
