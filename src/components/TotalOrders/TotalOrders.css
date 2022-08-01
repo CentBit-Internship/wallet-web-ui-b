@@ -1,0 +1,70 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+}
+
+.total-orders-container {
+  background-color: #a88ed4a7;
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.total-orders-container:hover {
+  background-color: #a88ed4;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.to-top {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.to-tag {
+  background-color: #fff;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.to-order-icon {
+  font-size: 20px;
+  transform: rotateY(180deg);
+}
+
+.total-orders {
+  position: absolute;
+  left: 34%;
+  top: 33%;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.to-bottom {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.to-amount {
+  font-size: 27px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.to-arrow-up {
+  padding: 3px 10px 0 10px;
+}
+
+.to-arrow-icon {
+  font-size: 23px;
+}
