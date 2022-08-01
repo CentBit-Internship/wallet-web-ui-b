@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+
+.radial-bar-wrapper {
+    height: 50vh;
+}
+
+.donut{
+    margin: 25px ;
+    height: 50vh;
+    width: 22.5vw;
+    border: 1px solid rgb(241, 237, 237);
+    border-radius: 5px;
+}
+
+.dropdown_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown{
+    margin: 26px;
+    background-color: gray;
+}
+
+.chart_wrapper{
+    position: relative;
+    right: 35px;
+    top: 10px;
+}
+
+#dropdown{
+    background-color: rgb(240, 240, 240);
+    padding: 3px;
+    border: 3px solid rgb(240, 240, 240);
+}
+
+.customer-activities {
+    width: 22.5vw;
+    height: 45vh;
+    margin: 25px;
+    border: 1px solid rgb(241, 237, 237);
+    border-radius: 5px;
+    background-color: black;
+}
+
+.barchart-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    top: 21px;
+    left: 15px;
+    height: 35vh;
+}
+
+.customers_nav{
+    display: flex;
+    color: white;
+}
+
+.bar p {
+    color: #fff;
+}
+
+.bar .bar-bg {
+    position: relative;
+    background-color: gray;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bar .bar-bg .bar-pt {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: pink;
+    border-radius: 10px;
+    transition: height 0.5s linear;
+}
