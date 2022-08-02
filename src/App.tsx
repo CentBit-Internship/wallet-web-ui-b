@@ -5,6 +5,7 @@ import { Sidenav } from './components/styles/Sidenav.styled';
 import { Dashboard } from './components/styles/Dashboard.styled';
 import Totals from './components/Totals';
 import SalesAnalytics from './components/SalesAnalytics';
+import SellingProducts from './components/SellingProducts';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Dashboard>
           <Totals />
           <SalesAnalytics />
+          <SellingProducts />
         </Dashboard>
       </Container>
     </>
