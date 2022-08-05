@@ -1,0 +1,76 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+}
+
+.total-profit-container {
+  background-color: #b9e303a7;
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.total-profit-container:hover {
+  background-color: #b9e303;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.tp-top {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.tp-tag {
+  background-color: #fff;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.tp-tag-icon {
+  font-size: 20px;
+}
+
+.tp-tag-icon-arrow {
+  position: absolute;
+  left: 4.5%;
+  top: 20%;
+  transform: rotate(320deg);
+}
+
+.total-profit {
+  position: absolute;
+  left: 34%;
+  top: 33%;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.tp-bottom {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tp-amount {
+  font-size: 25px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.tp-arrow-down {
+  padding: 3px 10px 0 10px;
+}
+
+.tp-arrow-icon {
+  font-size: 23px;
+}
