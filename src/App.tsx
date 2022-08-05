@@ -6,16 +6,7 @@ import { Sidenav } from "./components/styles/Sidenav.styled";
 import { Dashboard } from "./components/styles/Dashboard.styled";
 import Totals from "./components/Totals";
 import SalesAnalytics from "./components/SalesAnalytics";
-
-// return (
-//   <div className="App">
-//     <header className="App-header">
-//       <Earnings />
-//     </header>
-//     <div className="customer-activities">
-//       <BarChart data={barchartData} />
-//     </div>
-//   </div>
+import SellingProducts from './components/SellingProducts';
 
 function App() {
   const barchartData = [
@@ -55,6 +46,7 @@ function App() {
         <Dashboard>
           <Totals />
           <SalesAnalytics />
+          <SellingProducts />
         </Dashboard>
         <div className="App">
         <header className="App-header">
