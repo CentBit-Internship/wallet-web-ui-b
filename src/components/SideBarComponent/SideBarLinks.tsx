@@ -6,7 +6,7 @@ interface Props{
     text : string
 }
 
-const SideBarLinks = (props : Props) => {
+export const SideBarLinks = (props : Props) => {
   return (
     <div className={style.link}>
         <div className={style.logo}>
@@ -17,4 +17,4 @@ const SideBarLinks = (props : Props) => {
   )
 }
 
-export default SideBarLinks;
+// export default SideBarLinks;

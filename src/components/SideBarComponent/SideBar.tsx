@@ -1,6 +1,6 @@
 import react from 'react';
 import style from './Sidebar.module.css';
-import SideBarLinks from './SideBarLinks';
+import {SideBarLinks} from './SideBarLinks';
 import tableColumns from '../../Assets/table-columns-solid.svg';
 import chartLine from '../../Assets/chart-line-solid.svg';
 import customersLogo from '../../Assets/user-group-solid.svg';
