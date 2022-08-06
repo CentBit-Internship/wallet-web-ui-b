@@ -18,4 +18,8 @@ export const TableContainer = styled.div`
     left: 3%;
     top: 8%;
   }
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
 `;

@@ -18,4 +18,10 @@ export const GraphContainer = styled.div`
     left: 3%;
     top: 8%;
   }
+
+  @media (max-width: 1000px) {
+    margin-top: 20%;
+    width: 91%;
+    background-color: red;
+  }
 `;

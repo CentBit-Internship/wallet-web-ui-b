@@ -53,3 +53,10 @@
   border-radius: 8px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .graph-container {
+    margin-top: 6%;
+    width: 95%;
+    font-family: 'Poppins', sans-serif;
+  }
+}
