@@ -35,7 +35,7 @@
 }
 
 .to-order-icon {
-  font-size: 20px;
+  font-size: 30px;
   transform: rotateY(180deg);
 }
 
@@ -64,3 +64,49 @@
 .to-arrow-icon {
   font-size: 23px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .total-orders-container {
+    position: relative;
+    width: 100%;
+    background-color: #a88ed4;
+    display: flex;
+    flex-direction: row;
+  }
+  .to-top {
+    position: static;
+    display: flex;
+  }
+  .to-tag {
+    background-color: #fff;
+    padding: 20px 24px;
+    border-radius: 8px;
+  }
+  .to-tag-icon {
+    font-size: 30px;
+  }
+  .total-orders {
+    position: absolute;
+    top: 18%;
+    left: 37%;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .to-bottom {
+    display: flex;
+    width: 65%;
+    position: static;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .to-amount {
+    font-size: 30px;
+  }
+  .to-arrow-icon {
+    font-size: 23px;
+    color: green;
+  }
+}
+
