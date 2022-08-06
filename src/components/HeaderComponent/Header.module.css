@@ -1,0 +1,125 @@
+.wrapper{
+    display: flex;
+    gap: 1rem;
+    justify-content: baseline;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.over{
+    color: black;
+    margin: 3rem 0 0 3.5rem;
+    font-weight: bold;
+}
+
+.search{
+    width: 1.5rem;
+}
+
+.search>img{
+    width: 100%;
+}
+
+.search:hover{
+    background-color: #cfcfcf;
+    cursor: pointer;
+}
+
+.searchContainer{
+    background-color: #efefef;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    width: 100%;
+}
+
+.searchContainer:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.searchInput:focus, .searchInput:active{
+    border: none;
+    outline: none;
+}
+
+.searchInput{
+    background-color: transparent;
+    border: none;
+    padding: 0.5rem 0.8rem;
+}
+
+.notification{
+    background-color: #efefef;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding: 1rem;
+    width: 5rem;
+}
+
+.notification:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.notification>img{
+    height: 100%;
+    width: 100%;
+}
+
+.btn{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 0.5rem;
+    margin: auto;
+    padding: 0.8rem 1rem;
+    width: 10rem;
+}
+
+.btn:hover{
+    /* background-color: whitesmoke; */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    transform: scale(1.05);
+    transition: 0.2s;
+    /* color: black; */
+}
+
+@media only screen and (max-width: 768px){
+    .searchContainer{
+        width: 30%;
+        margin-left: 5%;
+    }
+    .over{
+        margin-left: 2rem;
+    }
+    .search>img{
+        width: 50%;
+    }
+    .notification{
+        width: 3rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .wrapper{
+        margin-right: 5%;
+    }
+    .notification{
+        width: 5rem;
+    }
+    .search>img{
+        width: 1.5rem;
+    }
+    .searchContainer{
+        display: flex;
+        justify-content: center;
+    }
+    .searchInput{
+        display: none;
+    }
+}

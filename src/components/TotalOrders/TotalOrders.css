@@ -30,7 +30,7 @@
 
 .to-tag {
   background-color: #fff;
-  padding: 8px 10px;
+  padding: 6px 10px 10px 10px;
   border-radius: 8px;
 }
 
@@ -59,6 +59,10 @@
   font-size: 27px;
   margin-bottom: 0;
   font-weight: 600;
+}
+
+.to-arrow-up {
+  padding: 3px 10px 0 10px;
 }
 
 .to-arrow-icon {
