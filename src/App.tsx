@@ -9,6 +9,8 @@ import { Dashboard } from './components/styles/Dashboard.styled';
 import Totals from './components/Totals';
 import SalesAnalytics from './components/SalesAnalytics';
 import SellingProducts from './components/SellingProducts';
+import Sidebar from "./components/SideBarComponent/SideBar";
+import Header from "./components/HeaderComponent/Header";
 
 function App() {
   const barchartData = [
@@ -41,11 +43,13 @@ function App() {
       value: 35,
     },
   ];
+
   return (
     <>
       <Container>
-        <Sidenav></Sidenav>
+        <Sidebar />
         <Dashboard>
+          <Header />
           <Totals />
           <SalesAnalytics />
           <SellingProducts />
