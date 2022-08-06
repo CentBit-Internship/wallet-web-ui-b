@@ -89,7 +89,7 @@
 
 .bar-bg {
   position: relative;
-  background-color: gray;
+  background-color: rgb(53, 53, 53);
   height: 100%;
   border-radius: 10px;
   overflow: hidden;
@@ -103,4 +103,10 @@
   background-color: #e4d6fc;
   border-radius: 10px;
   transition: height 0.5s linear;
+}
+
+@media only screen and (max-width: 900px) {
+  .App {
+    display: none;
+  }
 }
