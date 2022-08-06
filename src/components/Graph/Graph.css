@@ -1,0 +1,55 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+}
+
+.graph-container {
+  margin-top: 6%;
+  width: 99%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.apexcharts-menu.apexcharts-menu-open {
+  width: 120px;
+}
+
+.apexcharts-zoomin-icon {
+  display: none;
+}
+
+.apexcharts-zoomout-icon {
+  display: none;
+}
+
+.apexcharts-zoom-icon {
+  display: none;
+}
+
+.apexcharts-pan-icon {
+  display: none;
+}
+
+.apexcharts-reset-icon {
+  display: none;
+}
+
+.apexcharts-menu-icon {
+  display: none;
+}
+
+.monthly-dropdown {
+  position: absolute;
+  top: 7%;
+  padding: 3px;
+  right: 2.5%;
+  width: 12%;
+  color: #999;
+  background-color: rgb(240, 240, 240);
+  font-size: 11px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
