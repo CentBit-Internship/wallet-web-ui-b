@@ -70,3 +70,55 @@
 .tp-arrow-icon {
   font-size: 23px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .total-profit-container {
+    position: relative;
+    width: 100%;
+    background-color: #b9e303;
+    display: flex;
+    flex-direction: row;
+  }
+  .tp-top {
+    position: static;
+    display: flex;
+  }
+  .tp-tag {
+    background-color: #fff;
+    padding: 20px 24px;
+    border-radius: 8px;
+  }
+  .tp-tag-icon {
+    font-size: 30px;
+  }
+  .tp-tag-icon-arrow {
+    position: absolute;
+    left: 42px;
+    top: 34%;
+    font-size: 20px;
+    transform: rotate(320deg);
+  }
+  .total-profit {
+    position: absolute;
+    top: 18%;
+    left: 37%;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .tp-bottom {
+    display: flex;
+    width: 65%;
+    position: static;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .tp-amount {
+    font-size: 30px;
+  }
+  .tp-arrow-icon {
+    font-size: 23px;
+    color: red;
+  }
+}
