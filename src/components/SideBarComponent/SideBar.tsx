@@ -9,7 +9,6 @@ import supportLogo from '../../Assets/circle-question-regular.svg';
 import settingLogo from '../../Assets/gear-solid.svg';
 import profileImage from '../../Assets/img.jpeg';
 import logoutLogo from '../../Assets/arrow-right-from-bracket-solid.svg';
-import sideImg from '../../asset/design.png';
 
 const Sidebar = ()=>{
     return(
@@ -23,18 +22,15 @@ const Sidebar = ()=>{
                             <p className={style.email}>angela@gmail.com</p>
                         </div>
                     </div>
-                    <div className={style.linksContainer + " " + style.links}>
+                    <div className={style.links}>
                         <SideBarLinks img={tableColumns} text='Overview'/>
                         <SideBarLinks img={chartLine} text='Analytics'/>
                         <SideBarLinks img={customersLogo} text='Customers'/>
                         <SideBarLinks img={calenderLogo} text='Calender'/>
                         <SideBarLinks img={supportLogo} text='Support'/>
-                        <SideBarLinks img={settingLogo} text='Setting'/>
+                        <SideBarLinks img={settingLogo} text='Settings'/>
                     </div>
-                    {/* <div className={style.side}> 
-                        <SideBarLinks img={sideImg} text=''/>
-                    </div> */}
-                    <div className={style.linksContainer + " " + style.Logout}>
+                    <div className={style.Logout}>
                         <SideBarLinks img={logoutLogo} text='Logout'/>
                     </div>
             </div>

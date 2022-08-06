@@ -3,9 +3,9 @@
 import styled from 'styled-components';
 
 export const TotalContainer = styled.div`
-  width: 60%;
+  width: 67%;
   margin-left: 3%;
-  margin-top: 4%;
+  margin-top: 2.3%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

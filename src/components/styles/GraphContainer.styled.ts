@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const GraphContainer = styled.div`
   position: relative;
-  width: 57%;
+  width: 63.9%;
   border-radius: 10px;
   height: 33.5%;
   margin-left: 4.5%;

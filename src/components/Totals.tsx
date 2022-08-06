@@ -3,7 +3,7 @@
 import TotalSales from './TotalSales/TotalSales';
 import TotalProfit from './TotalProfits/TotalProfit';
 import TotalOrders from './TotalOrders/TotalOrders';
-import { TotalContainer } from '../components/styles/TotalContainer.styled';
+import { TotalContainer } from './Styles/TotalContainer.styled';
 
 function Totals() {
   return (

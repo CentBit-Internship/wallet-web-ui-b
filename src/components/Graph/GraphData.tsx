@@ -39,8 +39,8 @@ export const options: ApexCharts.ApexOptions | undefined = {
     fontSize: "11px",
     fontFamily: "Poppins, Arial",
     fontWeight: 600,
-    offsetY: 0,
-    offsetX: 10,
+    offsetY: -5,
+    offsetX: 0,
     markers: {
       width: 8,
       height: 8,
