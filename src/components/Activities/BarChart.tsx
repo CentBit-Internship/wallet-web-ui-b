@@ -1,4 +1,6 @@
-import React, { FC, useEffect, useState } from "react";
+/** @format */
+
+import React, { FC, useEffect, useState } from 'react';
 
 const Bar: FC<{
   title: string;
@@ -18,7 +20,7 @@ const Bar: FC<{
       <div
         className="bar-bg"
         style={{
-          height: `${barHeight || 250}px`,
+          height: `${barHeight || 220}px`,
           width: `${barWidth || 10}px`,
         }}
       >
@@ -37,11 +39,20 @@ const BarChart: FC<{ data: { title: string; value: number }[] }> = ({
   return (
     <div>
       <div className="customers_nav">
-        <h3 style={{ color: "white", margin: "15px", }}>Customers Activity</h3>
-        <ul style={{ position:'relative', top:'25px', left:'15px'}}>
-            <li style={{marginTop:'-15px'}}></li>
-            <li style={{marginTop:'-15px'}}></li>
-            <li style={{marginTop:'-15px'}}></li>
+        <h3
+          style={{
+            color: 'white',
+            margin: '15px 56px 0 33px',
+            fontSize: '17px',
+            fontWeight: '600',
+          }}
+        >
+          Customers Activity
+        </h3>
+        <ul style={{ position: 'relative', top: '25px', left: '15px', color: '#fff', fontSize: 12 }}>
+          <li style={{ marginTop: '-13px' }}></li>
+          <li style={{ marginTop: '-12px' }}></li>
+          <li style={{ marginTop: '-12px' }}></li>
         </ul>
       </div>
       <div className="barchart-wrapper">
