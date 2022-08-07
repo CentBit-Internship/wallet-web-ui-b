@@ -63,3 +63,48 @@
 .ts-arrow-icon {
   font-size: 23px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .total-sales-container {
+    position: relative;
+    width: 100%;
+    background-color: #b5d5e1;
+    display: flex;
+    flex-direction: row;
+  }
+  .ts-top {
+    position: static;
+    display: flex;
+  }
+  .ts-tag {
+    background-color: #fff;
+    padding: 20px 24px;
+    border-radius: 8px;
+  }
+  .ts-tag-icon {
+    font-size: 30px;
+  }
+  .total-sales {
+    position: absolute;
+    top: 18%;
+    left: 37%;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .ts-bottom {
+    display: flex;
+    width: 65%;
+    position: static;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .ts-amount {
+    font-size: 30px;
+  }
+  .ts-arrow-icon {
+    font-size: 23px;
+    color: green;
+  }
+}

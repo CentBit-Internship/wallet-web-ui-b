@@ -1,8 +1,8 @@
 .sidebar{
     background-color: black;
     width: 20rem;
-    height: auto;
-    /* z-index: 0; */
+    height: 100%;
+    position: relative;
 }
 
 .pic{
@@ -17,7 +17,6 @@
 
 .profileContainer{
     padding: 3rem 4rem 2rem 3rem; 
-    margin-bottom: 6rem;
 }
 
 .profile{
@@ -33,7 +32,9 @@
 }
 
 .Logout{
-     margin-top: 15rem;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
 }
 
 @media only screen and (max-width: 1024px) {

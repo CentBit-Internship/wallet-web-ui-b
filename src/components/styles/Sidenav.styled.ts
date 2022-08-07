@@ -7,4 +7,8 @@ export const Sidenav = styled.aside`
   height: 100vh;
   color: #fff;
   background-color: #000000e9;
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
 `;

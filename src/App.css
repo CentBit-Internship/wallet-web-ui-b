@@ -1,90 +1,112 @@
-*{
-    margin: 0;
+/** @format */
+
+* {
+  margin: 0;
+}
+
+.App {
+  position: absolute;
+  top: 7.2%;
+  right: 2%;
 }
 
 .radial-bar-wrapper {
-    height: 50vh;
+  height: 50vh;
 }
 
-.donut{
-    margin: 25px ;
-    height: 50vh;
-    width: 22.5vw;
-    border: 1px solid rgb(241, 237, 237);
-    border-radius: 5px;
+.donut {
+  margin: 25px;
+  height: 52vh;
+  width: 22.5vw;
+  border: 2px solid #e6e6e6;
+  border-radius: 10px;
 }
 
-.dropdown_nav{
-    display: flex;
-    justify-content: space-between;
+.dropdown_nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-.dropdown{
-    margin: 26px;
-    background-color: gray;
+.dropdown {
+  margin: 26px;
 }
 
-.chart_wrapper{
-    position: relative;
-    right: 35px;
-    top: 10px;
+.chart_wrapper {
+  position: relative;
+  right: 35px;
+  top: 10px;
 }
 
-#dropdown{
-    background-color: rgb(240, 240, 240);
-    padding: 3px;
-    border: 3px solid rgb(240, 240, 240);
+#dropdown {
+  color: #999;
+  background-color: rgb(240, 240, 240);
+  padding: 0 2px;
+  border: 3px solid rgb(240, 240, 240);
+  border-radius: 10px;
+  height: 25px;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 .customer-activities {
-    width: 22.5vw;
-    height: 45vh;
-    margin: 25px;
-    border: 1px solid rgb(241, 237, 237);
-    border-radius: 5px;
-    background-color: black;
+  width: 22.5vw;
+  height: 34vh;
+  margin-top: -9.5px;
+  margin-left: 25px;
+  border-radius: 10px;
+  background-color: rgb(32, 32, 32);
 }
 
 .barchart-wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 20vw;
+  display: flex;
+  height: 65%;
+  justify-content: space-around;
+  width: 20vw;
 }
 
 .bar {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-    position: relative;
-    top: 21px;
-    left: 15px;
-    height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 18px;
+  left: 18px;
+  height: 20vh;
 }
 
-.customers_nav{
-    display: flex;
-    color: white;
+.customers_nav {
+  display: flex;
 }
 
 .bar p {
-    color: #fff;
+  color: #999;
+  font-weight: 600;
+  position: absolute;
+  top: 108%;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
 }
 
-.bar .bar-bg {
-    position: relative;
-    background-color: gray;
-    height: 100%;
-    border-radius: 10px;
-    overflow: hidden;
+.bar-bg {
+  position: relative;
+  background-color: rgb(58, 58, 58);
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .bar .bar-bg .bar-pt {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    background-color: pink;
-    border-radius: 10px;
-    transition: height 0.5s linear;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #e4d6fc;
+  border-radius: 10px;
+  transition: height 0.5s linear;
+}
+
+@media only screen and (max-width: 1000px) {
+  .App {
+    display: none;
+  }
 }
