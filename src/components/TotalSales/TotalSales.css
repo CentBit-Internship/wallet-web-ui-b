@@ -62,6 +62,7 @@
 
 .ts-arrow-icon {
   font-size: 23px;
+  color: green;
 }
 
 @media only screen and (max-width: 1000px) {
