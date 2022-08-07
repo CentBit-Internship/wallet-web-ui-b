@@ -59,4 +59,16 @@
     width: 95%;
     font-family: 'Poppins', sans-serif;
   }
+
+  .graph-container {
+    margin-top: 15%;
+    width: 95%;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .monthly-dropdown {
+    top: 5%;
+    right: 7%;
+    width: 22%;
+  }
 }
