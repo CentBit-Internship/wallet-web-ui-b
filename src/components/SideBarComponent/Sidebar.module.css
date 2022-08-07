@@ -39,13 +39,15 @@
 
 @media only screen and (max-width: 1024px) {
     .sidebar{
-        width: 15rem;
+        display: none;
+        /* width: 15rem; */
     }
 }
 
 @media only screen and (max-width: 768px){
     .sidebar{
-        width: 8rem;
+        display: none;
+        /* width: 8rem; */
     }
     .email{
         display: none;

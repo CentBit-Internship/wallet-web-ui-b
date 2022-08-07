@@ -1,126 +1,165 @@
-.wrapper{
-    display: flex;
-    gap: 1rem;
-    top: 27%;
-    right: 0;
-    position: absolute;
+/** @format */
+
+.wrapper {
+  display: flex;
+  gap: 1rem;
+  top: 27%;
+  right: 0;
+  position: absolute;
 }
 
-.header{
-    display: flex;
-    position: relative;
-    width: 100%;
-    justify-content: space-between;
-    align-items: baseline;
+.header {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-.over{
-    color: black;
-    margin: 10px 0 0 3.5rem;
-    font-weight: bold;
+.over {
+  color: black;
+  margin: 10px 0 0 3.5rem;
+  font-weight: bold;
 }
 
-.search{
-    width: 1.5rem;
+.search {
+  width: 1.5rem;
 }
 
-.search>img{
-    width: 16px;
+.search > img {
+  width: 16px;
 }
 
-.searchContainer{
-    background-color: #efefef;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    padding: 0.2rem;
-    width: 100%;
-    height: 40px;
+.searchContainer {
+  background-color: #efefef;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0.2rem;
+  width: 100%;
+  height: 40px;
 }
 
-.searchContainer:hover{
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+.searchContainer:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
-.searchInput:focus, .searchInput:active{
-    border: none;
-    outline: none;
+.searchInput:focus,
+.searchInput:active {
+  border: none;
+  outline: none;
 }
 
-.searchInput{
-    background-color: transparent;
-    border: none;
-    padding: 0.5rem 0.8rem;
-    font-family: 'Poppins', sans-serif;
+.searchInput {
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  font-family: 'Poppins', sans-serif;
 }
 
-.notification{
-    background-color: #efefef;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    height: 100%;
-    padding: 0.5rem;
+.notification {
+  background-color: #efefef;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  height: 100%;
+  padding: 0.5rem;
 }
 
-.notification:hover{
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-    transform: scale(1.05);
-    transition: 0.2s;
+.notification:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  transform: scale(1.05);
+  transition: 0.2s;
 }
 
-.notification>img{
-    height: 20px;
-    width: 20px;
+.notification > img {
+  height: 20px;
+  width: 20px;
+  animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  animation-iteration-count: infinite;
 }
 
-.btn{
-    background-color: black;
-    color: whitesmoke;
-    border-radius: 0.5rem;
-    margin: auto;
-    border: none;
-    font-size: 13px;
-    height: 40px;
-    width: 10rem;
+@keyframes shake {
+  0% {
+    transform: rotate(0);
+  }
+  15% {
+    transform: rotate(10deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  45% {
+    transform: rotate(7deg);
+  }
+  60% {
+    transform: rotate(-7deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  85% {
+    transform: rotate(-5deg);
+  }
+  92% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
 }
 
-.btn:hover{
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-    transform: scale(1.05);
-    transition: 0.2s;
+.btn {
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 0.5rem;
+  margin: auto;
+  border: none;
+  font-size: 13px;
+  height: 40px;
+  width: 10rem;
 }
 
-@media only screen and (max-width: 768px){
-    .searchContainer{
-        width: 30%;
-        margin-left: 5%;
-    }
-    .over{
-        margin-left: 2rem;
-    }
-    .search>img{
-        width: 50%;
-    }
-    .notification{
-        width: 3rem;
-    }
+.btn:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+@media only screen and (max-width: 768px) {
+  .searchContainer {
+    width: 30%;
+    margin-left: 5%;
+  }
+  .over {
+    margin-left: 2rem;
+  }
+  .search > img {
+    width: 50%;
+  }
+  .notification {
+    width: 3rem;
+  }
 }
 
 @media only screen and (max-width: 425px) {
-    .wrapper{
-        margin-right: 5%;
-    }
-    .notification{
-        width: 5rem;
-    }
-    .search>img{
-        width: 1.5rem;
-    }
-    .searchContainer{
-        display: flex;
-        justify-content: center;
-    }
-    .searchInput{
-        display: none;
-    }
+  .header {
+    display: none;
+  }
+  .wrapper {
+    display: none;
+    /* margin-right: 5%; */
+  }
+  .notification {
+    width: 5rem;
+  }
+  .search > img {
+    width: 1.5rem;
+  }
+  .searchContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .searchInput {
+    display: none;
+  }
 }
