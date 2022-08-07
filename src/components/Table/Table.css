@@ -15,7 +15,12 @@
   height: 40px;
   border-radius: 10px;
   margin-right: 20px;
+  cursor: zoom-in;
 }
+/* .product-image:hover {
+  transform: scale(5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} */
 
 /* Table Head */
 
