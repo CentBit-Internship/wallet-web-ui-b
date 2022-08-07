@@ -24,11 +24,11 @@ function App() {
     },
     {
       title: 'Wed',
-      value: 15,
+      value: 20,
     },
     {
       title: 'Thu',
-      value: 25,
+      value: 30,
     },
     {
       title: 'Fri',
