@@ -39,12 +39,12 @@
 
 .stripes>img{
     position: relative;
-    height: 30rem;
+    height: 20rem;
     width: 13rem;
     opacity: 0.5;
 }
 .stripes{
-    margin-top: -35%;
+    margin-top: 5%;
 }
 
 @media only screen and (max-width: 1024px) {
