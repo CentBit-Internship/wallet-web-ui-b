@@ -37,7 +37,7 @@ const BarChart: FC<{ data: { title: string; value: number }[] }> = ({
   return (
     <div>
       <div className="customers_nav">
-        <h3 style={{ color: "white", margin: "15px", }}>Customers Activity</h3>
+        <h3 style={{ color: "white", position:'relative', top: '16px', left:'8px' }}>Customers Activity</h3>
         <ul style={{ position:'relative', top:'25px', left:'15px'}}>
             <li style={{marginTop:'-15px'}}></li>
             <li style={{marginTop:'-15px'}}></li>

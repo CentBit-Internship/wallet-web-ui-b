@@ -7,15 +7,6 @@ import { Dashboard } from "./components/styles/Dashboard.styled";
 import Totals from "./components/Totals";
 import SalesAnalytics from "./components/SalesAnalytics";
 
-// return (
-//   <div className="App">
-//     <header className="App-header">
-//       <Earnings />
-//     </header>
-//     <div className="customer-activities">
-//       <BarChart data={barchartData} />
-//     </div>
-//   </div>
 
 function App() {
   const barchartData = [
