@@ -9,6 +9,6 @@ export const Sidenav = styled.aside`
   background-color: #000000e9;
 
   @media (max-width: 1000px) {
-    display: none;
+  display: none;
   }
 `;
