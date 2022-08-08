@@ -1,6 +1,6 @@
 /** @format */
 import '../components/Graph/Graph.css'
-import { GraphContainer } from './Styles/GraphContainer.styled';
+import { GraphContainer } from './styles/GraphContainer.styled';
 import Graph from '../components/Graph/Graph';
 
 function SalesAnalytics() {
