@@ -1,5 +1,10 @@
 /** @format */
 
+.navOpenIcon,
+.navCloseIcon {
+  display: none;
+}
+
 .wrapper {
   display: flex;
   gap: 1rem;
@@ -126,7 +131,33 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  
+  .navOpenIcon {
+    position: fixed;
+    display: block;
+    top: 2%;
+    right: 5%;
+    font-size: 35px;
+    font-weight: 600;
+    color: #000;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  .navCloseIcon {
+    position: fixed;
+    display: block;
+    top: 2%;
+    right: 5%;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    z-index: 1000;
+    cursor: pointer;
+  }
+
+  .header {
+    position: relative;
+  }
+
   .over {
     font-size: 40px;
     margin-left: 20px;
