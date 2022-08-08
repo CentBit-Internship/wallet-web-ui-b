@@ -9,7 +9,7 @@ import supportLogo from '../../Assets/circle-question-regular.svg';
 import settingLogo from '../../Assets/gear-solid.svg';
 import profileImage from '../../Assets/img.jpeg';
 import logoutLogo from '../../Assets/arrow-right-from-bracket-solid.svg';
-import stripes from '../../Assets/side.png';
+import stripes from '../../Assets/side.jpeg';
 
 const Sidebar = ()=>{
     return(
