@@ -37,6 +37,16 @@
     width: 100%;
 }
 
+.stripes>img{
+    position: relative;
+    height: 30rem;
+    width: 13rem;
+    opacity: 0.5;
+}
+.stripes{
+    margin-top: -35%;
+}
+
 @media only screen and (max-width: 1024px) {
     .sidebar{
         width: 15rem;
