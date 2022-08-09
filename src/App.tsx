@@ -3,9 +3,9 @@
 import './App.css';
 import BarChart from './components/Activities/BarChart';
 import Earnings from './components/Earnings';
-import { Container } from './components/Styles/Container.styled';
-import { Sidenav } from './components/Styles/Sidenav.styled';
-import { Dashboard } from './components/Styles/Dashboard.styled';
+import { Container } from './components/styles/Container.styled';
+import { Sidenav } from './components/styles/Sidenav.styled';
+import { Dashboard } from './components/styles/Dashboard.styled';
 import Totals from './components/Totals';
 import SalesAnalytics from './components/SalesAnalytics';
 import SellingProducts from './components/SellingProducts';
@@ -24,11 +24,11 @@ function App() {
     },
     {
       title: 'Wed',
-      value: 15,
+      value: 20,
     },
     {
       title: 'Thu',
-      value: 25,
+      value: 30,
     },
     {
       title: 'Fri',

@@ -1,69 +1,57 @@
-.sidebar{
-    background-color: black;
-    width: 20rem;
-    height: 100%;
-    position: relative;
+/** @format */
+
+.sidebar {
+  background-color: black;
+  width: 20rem;
+  height: 100%;
+  position: relative;
 }
 
-.pic{
-    margin-bottom: 1rem;
+.pic {
+  margin-bottom: 1rem;
 }
-.pic>img{
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin: auto;
-    width: 3rem;
-}
-
-.profileContainer{
-    padding: 3rem 4rem 2rem 3rem; 
+.pic > img {
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: auto;
+  width: 3rem;
 }
 
-.profile{
-    font-size: large;
+.profileContainer {
+  padding: 3rem 4rem 2rem 3rem;
 }
 
-.name{
-    color: #ffffff;
+.profile {
+  font-size: large;
 }
 
-.email{
-    color: lightslategray;
+.name {
+  color: #ffffff;
 }
 
-.Logout{
-    position: absolute;
-    bottom: 3%;
+.email {
+  color: lightslategray;
+}
+
+.Logout {
+  position: absolute;
+  bottom: 3%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  
+  .sidebar {
     width: 100%;
-}
-
-@media only screen and (max-width: 1024px) {
-    .sidebar{
-        width: 15rem;
-    }
-}
-
-@media only screen and (max-width: 768px){
-    .sidebar{
-        width: 8rem;
-    }
-    .email{
-        display: none;
-    }
-}
-
-/* .side{
+    background-color: black;
+    position: fixed;
     z-index: 1;
-    position: absolute;
-    opacity: 35%;
-    left: -5%;
-    bottom: -25%;
-    border: solid 5px #000;
-    border-color: #000 transparent transparent transparent;
-    border-radius: 50%;
-} */
+    display: block;
+  }
 
-/* .links{
-    z-index: 2;
-    margin-bottom: 200%;
-} */
+  .profileContainer {
+    display: block;
+  }
+
+  
+}

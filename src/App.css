@@ -16,7 +16,7 @@
 
 .donut {
   margin: 25px;
-  height: 52vh;
+  height: 51.5vh;
   width: 22.5vw;
   border: 2px solid #e6e6e6;
   border-radius: 10px;
@@ -50,7 +50,7 @@
 
 .customer-activities {
   width: 22.5vw;
-  height: 34vh;
+  height: 34.4vh;
   margin-top: -9.5px;
   margin-left: 25px;
   border-radius: 10px;
@@ -69,7 +69,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: 18px;
+  top: 23px;
   left: 18px;
   height: 20vh;
 }
