@@ -1,4 +1,4 @@
-import react from 'react';
+import react, {useState} from 'react';
 import style from './Sidebar.module.css';
 import {SideBarLinks} from './SideBarLinks';
 import tableColumns from '../../Assets/table-columns-solid.svg';
@@ -11,7 +11,9 @@ import profileImage from '../../Assets/img.jpeg';
 import logoutLogo from '../../Assets/arrow-right-from-bracket-solid.svg';
 import stripes from '../../Assets/side.jpeg';
 
-const Sidebar = ()=>{
+
+const Sidebar = ()=>{ 
+   
     return(
             <div className={style.sidebar}>
                     <div className={style.profileContainer}>

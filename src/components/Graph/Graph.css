@@ -55,8 +55,14 @@
 
 @media only screen and (max-width: 1000px) {
   .graph-container {
-    margin-top: 6%;
+    margin-top: 15%;
     width: 95%;
     font-family: 'Poppins', sans-serif;
+  }
+
+  .monthly-dropdown {
+    top: 5%;
+    right: 7%;
+    width: 22%;
   }
 }

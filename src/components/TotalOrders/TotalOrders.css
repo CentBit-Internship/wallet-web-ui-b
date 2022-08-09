@@ -56,17 +56,14 @@
 }
 
 .to-amount {
-  font-size: 27px;
+  font-size: 25px;
   margin-bottom: 0;
   font-weight: 600;
 }
 
-.to-arrow-up {
-  padding: 3px 10px 0 10px;
-}
-
 .to-arrow-icon {
   font-size: 23px;
+  color: green;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -86,7 +83,7 @@
     padding: 20px 24px;
     border-radius: 8px;
   }
-  .to-tag-icon {
+  .to-order-icon {
     font-size: 30px;
   }
   .total-orders {

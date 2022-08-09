@@ -5,27 +5,30 @@
     padding: 0.5rem 3rem 0 3rem;
 }
 
-.link:hover{
-    border-left: white solid 0.4rem;
-    padding-left: 2.6rem;
-    color: white;
+.link:hover {
+  border-left: white solid 0.4rem;
+  padding-left: 2.6rem;
+  color: white;
 }
 
-.logo{
-    box-sizing: border-box;
-    width: 1.5rem;
+.logo {
+  box-sizing: border-box;
+  width: 1.5rem;
 }
 
-.p{
-    font-size: large;
-    margin-left: 1.5rem;
+.p {
+  font-size: large;
+  margin-left: 1.5rem;
 }
 
-@media only screen and (max-width: 768px){
-    .p{
-        display: none;
-    }
-    .logo{
-        padding-bottom: 0.3rem;
-    }
+@media only screen and (max-width: 1000px) {
+  .links {
+    display: block;
+  }
+  .p {
+    color: #fff;
+  }
+  .logo {
+    padding-bottom: 0.3rem;
+  }
 }
