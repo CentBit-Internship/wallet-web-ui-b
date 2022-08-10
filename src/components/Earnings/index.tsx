@@ -7,6 +7,7 @@ const Earnings = () => {
   } = {
     options: {
       labels: ["Sales", "Profit", "Growth"],
+      colors: ['#000', '#b9e303', '#b5d5e1'],
       legend: {
         show: true,
         showForSingleSeries: false,
@@ -15,20 +16,21 @@ const Earnings = () => {
         position: "bottom",
         horizontalAlign: "center",
         floating: false,
-        fontSize: "14px",
-        fontFamily: "Helvetica, Arial",
+        fontSize: "12px",
+        fontFamily: "Poppins, Arial",
+        fontWeight: 600,
         width: undefined,
         height: undefined,
         formatter: undefined,
         offsetX: 0,
         offsetY: 0,
         labels: {
-          colors: undefined,
+          colors: "undefined",
           useSeriesColors: false,
         },
         markers: {
-          width: 12,
-          height: 12,
+          width: 8,
+          height: 8,
           strokeWidth: 0,
           strokeColor: "#fff",
           radius: 12,
@@ -38,8 +40,8 @@ const Earnings = () => {
           offsetY: 0,
         },
         itemMargin: {
-          horizontal: 20,
-          vertical: 5,
+          horizontal: 30,
+          vertical: 0,
         },
         onItemClick: {
           toggleDataSeries: true,
@@ -77,9 +79,9 @@ const Earnings = () => {
             startAngle: undefined,
             endAngle: undefined,
             background: "#f2f2f2",
-            strokeWidth: "97%",
+            strokeWidth: "125%",
             opacity: 1,
-            margin: 5,
+            margin: 8,
             dropShadow: {
               enabled: false,
               top: 0,
@@ -110,13 +112,13 @@ const Earnings = () => {
             total: {
               show: false,
               label: "Total",
-              color: "#373d3f",
+              color: undefined,
               formatter: function (w: any) {
                 return (
                   w.globals.seriesTotals.reduce((a: number, b: number) => {
                     return a + b;
                   }, 0) /
-                    w.globals.series.length +
+                  w.globals.series.length +
                   "%"
                 );
               },
@@ -132,7 +134,7 @@ const Earnings = () => {
   return (
     <div className="donut">
       <div className="dropdown_nav">
-        <h3 style={{margin: '20px'}}>Earnings</h3>
+        <h3 style={{ margin: '28px 20px 20px 25px', fontSize: '18px', fontWeight: '600' }}>Earnings</h3>
         <div className="dropdown">
           <label>
             <select name="dropdown" id="dropdown">
@@ -146,7 +148,7 @@ const Earnings = () => {
         series={state.series}
         type="radialBar"
         width="380"
-       className="chart_wrapper" />
+        className="chart_wrapper" />
     </div>
   );
 };
