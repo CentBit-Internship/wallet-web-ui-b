@@ -21,7 +21,15 @@ export const GraphContainer = styled.div`
 
   @media (max-width: 1000px) {
     margin-top: 20%;
+    margin-bottom: 20%;
     width: 91%;
-    background-color: red;
+
+    h1 {
+      position: absolute;
+      font-size: 25px;
+      font-weight: 600;
+      left: 3%;
+      top: -15%;
+    }
   }
 `;

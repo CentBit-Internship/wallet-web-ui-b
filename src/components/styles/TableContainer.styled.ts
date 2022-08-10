@@ -20,6 +20,17 @@ export const TableContainer = styled.div`
   }
 
   @media (max-width: 1000px) {
-    display: none;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    height: 221vh;
+    width: 91%;
+
+    h1 {
+      position: absolute;
+      font-size: 25px;
+      font-weight: 600;
+      left: 3%;
+      top: -2.2%;
+    }
   }
 `;

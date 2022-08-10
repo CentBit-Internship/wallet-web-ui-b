@@ -19,7 +19,7 @@ function Table() {
         <tbody className="table-body">
           {Products.map((product) => (
             <tr className="table-td" key={product.id}>
-              <td data-label="Product name">
+              <td>
                 <img
                   className="product-image"
                   src={product.image}

@@ -12,7 +12,7 @@ export const TotalContainer = styled.div`
 
   @media (max-width: 1000px) {
     margin-left: 5%;
-    margin-top: 40%;
+    margin-top: 45%;
     width: 90%;
     height: 45%;
     display: flex;
