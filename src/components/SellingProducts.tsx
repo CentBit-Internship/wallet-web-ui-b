@@ -1,5 +1,5 @@
 /** @format */
-import { TableContainer } from './styles/TableContainer.styled';
+import { TableContainer } from './Styles/TableContainer.styled';
 import Table from '../components/Table/Table';
 
 function SellingProducts() {
