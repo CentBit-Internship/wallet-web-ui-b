@@ -19,10 +19,6 @@ const Bar: FC<{
     <div className="bar">
       <div
         className="bar-bg"
-        style={{
-          height: `${barHeight || 220}px`,
-          width: `${barWidth || 10}px`,
-        }}
       >
         <div
           className="bar-pt"
@@ -43,10 +39,10 @@ const BarChart: FC<{ data: { title: string; value: number }[] }> = ({
         >
           Customers Activity
         </h3>
-        <ul style={{ position: 'relative', top: '25px', left: '15px', color: '#fff', fontSize: 12 }}>
-          <li style={{ marginTop: '-13px' }}></li>
-          <li style={{ marginTop: '-12px' }}></li>
-          <li style={{ marginTop: '-12px' }}></li>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
         </ul>
       </div>
       <div className="barchart-wrapper">

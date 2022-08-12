@@ -134,7 +134,7 @@ const Earnings = () => {
   return (
     <div className="donut">
       <div className="dropdown_nav">
-        <h3 style={{ margin: '28px 20px 20px 25px', fontSize: '18px', fontWeight: '600' }}>Earnings</h3>
+        <h3 className="earning">Earnings</h3>
         <div className="dropdown">
           <label>
             <select name="dropdown" id="dropdown">
@@ -147,7 +147,6 @@ const Earnings = () => {
         options={state.options}
         series={state.series}
         type="radialBar"
-        width="380"
         className="chart_wrapper" />
     </div>
   );
