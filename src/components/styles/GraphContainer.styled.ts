@@ -20,7 +20,7 @@ export const GraphContainer = styled.div`
   }
 
   @media (max-width: 1000px) {
-    margin-top: 20%;
+    margin-top: 70%;
     margin-bottom: 20%;
     width: 91%;
 
