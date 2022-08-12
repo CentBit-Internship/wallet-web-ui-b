@@ -9,6 +9,7 @@ import supportLogo from '../../Assets/circle-question-regular.svg';
 import settingLogo from '../../Assets/gear-solid.svg';
 import profileImage from '../../Assets/img.jpeg';
 import logoutLogo from '../../Assets/arrow-right-from-bracket-solid.svg';
+import stripes from '../../Assets/side.jpeg';
 
 
 const Sidebar = ()=>{ 
@@ -32,6 +33,7 @@ const Sidebar = ()=>{
                         <SideBarLinks img={supportLogo} text='Support'/>
                         <SideBarLinks img={settingLogo} text='Settings'/>
                     </div>
+                    <div className={style.stripes}><img src={stripes} alt='' /></div>
                     <div className={style.Logout}>
                         <SideBarLinks img={logoutLogo} text='Logout'/>
                     </div>

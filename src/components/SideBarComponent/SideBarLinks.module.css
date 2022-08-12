@@ -1,10 +1,8 @@
-/** @format */
-
-.link {
-  display: flex;
-  color: lightslategray;
-  cursor: pointer;
-  padding: 1rem 3rem 0.2rem 3rem;
+.link{
+    display: flex;
+    color : lightslategray;
+    cursor: pointer;
+    padding: 0.5rem 3rem 0 3rem;
 }
 
 .link:hover {
